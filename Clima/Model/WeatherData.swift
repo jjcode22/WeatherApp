@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//Decoding JSON response from OpenWeatherAPI enpoint into a struct object
 struct WeatherData: Decodable {
     let name: String
     let main: Main

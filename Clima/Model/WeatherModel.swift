@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+//WeatherModel that creates a weather object with properties mapped to the JSON object
 struct WeatherModel {
     let conditionID: Int
     let cityName: String
